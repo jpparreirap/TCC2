@@ -16,7 +16,7 @@ E disponibilizada em:
 Repositório Oficial InterfaceGAN:
 - InterfaceGAN:https://github.com/Vishal-V/GSoC-TensorFlow-2019/tree/master/face_app
 Repositórios de contribuição ao trabalho realizado por Karras, et. Al (2019):
-- StyleGAN-Encoder com otimizadores: https://github.com/pbaylies/stylegan-encoder, contribuição ao repositório stylegan-encoder: https://github.com/Puzer/stylegan-encoder.
+- StyleGAN-Encoder com otimizadores: https://github.com/pbaylies/stylegan-encoder, contribuição ao repositório stylegan-encoder: https://github.com/Puzer/stylegan-encoder. Ambas stylegan-encoder, foram contribuições diretas ao repositório da StyleGAN oficial: https://github.com/NVlabs/stylegan.
 Neste trabalho foi utilizada a StyleGAN-Encoder com otimizadores.
 
 
