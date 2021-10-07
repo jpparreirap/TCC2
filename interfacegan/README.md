@@ -1,3 +1,11 @@
+**Used for study purposes only.**
+
+**Official InterfaceGAN of Genforce. Thanks @genforce for contributions. Shen et al. (2020).**
+
+**genforce repo link: https://github.com/genforce/interfacegan**
+
+**Below is the official README of genforce.**
+
 # InterFaceGAN - Interpreting the Latent Space of GANs for Semantic Face Editing
 
 ![Python 3.7](https://img.shields.io/badge/python-3.7-green.svg?style=plastic)
