@@ -2,7 +2,7 @@
 
 **Official StyleGAN Encoder of Pbaylies. Thanks @Pbaylies and @Puzer for their contributions.**
 
-**Thanks Karras, et. all (2019) for StyleGAN. @NVlabs.**
+**Thanks Karras et al. (2019) for StyleGAN. @NVlabs.**
 
 **NVlabs repo link: https://github.com/NVlabs/stylegan**
 
