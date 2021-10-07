@@ -1,3 +1,17 @@
+**Used for study purposes only.**
+
+**Official StyleGAN Encoder of Pbaylies. Thanks @Pbaylies and @Puzer for their contributions.**
+
+**Thanks Karras, et. all (2019) for StyleGAN. @NVlabs.**
+
+**NVlabs repo link: https://github.com/NVlabs/stylegan**
+
+**Pbaylies repo link: https://github.com/pbaylies/stylegan-encoder** 
+
+**Puzer repo link: https://github.com/Puzer/stylegan-encoder**
+
+**Below is the official README of Pbaylies.**
+
 ## StyleGAN &mdash; Encoder for Official TensorFlow Implementation
 ![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg?style=plastic)
 ![TensorFlow 1.10](https://img.shields.io/badge/tensorflow-1.10-green.svg?style=plastic)
