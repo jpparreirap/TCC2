@@ -3,7 +3,7 @@
 **As aplicações stylegan-encoder e interfacegan foram utilizadas apenas para finalidades de estudo.**
 
 ## Baseado nos trabalhos realizados por:
-- SHEN, Y.; GU, J.; TANG, X.; ZHOU, B. Interpreting the latent space of gans for semantic face editing. In:2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition, CVPR 2020, Seattle, WA, USA, June 13-19,2020. IEEE, 2020. p. 9240–9249. Disponível em: <https://doi.org/10.1109/CVPR42600.2020.00926>. 
+- SHEN, Y.; GU, J.; TANG, X.; ZHOU, B. Interpreting the latent space of gans for semantic face editing. In:2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition, CVPR 2020, Seattle, WA, USA, June 13-19,2020. IEEE, 2020. p. 9240–9249. Disponível em: <https://doi.org/10.1109/CVPR42600.2020.00926>. Repositório Github: https://github.com/genforce/interfacegan
 - KARRAS,  T.;  LAINE,  S.;  AILA,  T.  A  style-based  generator  architecture  for generative adversarial networks. In:IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2019, Long Beach, CA, USA, June 16-20,2019. Computer Vision Foundation / IEEE, 2019. p. 4401–4410. Disponível em: <http://openaccess.thecvf.com/content\_CVPR\_2019/html/Karras\_A\_Style-Based\_Generator\_Architecture\_for\_Generative\_Adversarial\_Networks\_CVPR\_2019\_paper.html>. Repositório Github: https://github.com/NVlabs/stylegan
 
 ## Base de dados utilizada:
@@ -12,7 +12,7 @@ A base de dados utilizda foi a FFHQ, apresentada em:
 KARRAS,  T.;  LAINE,  S.;  AILA,  T.  A  style-based  generator  architecture  for generative adversarial networks. In:IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2019, Long Beach, CA, USA, June 16-20,2019. Computer Vision Foundation / IEEE, 2019. p. 4401–4410. Disponível em: <http://openaccess.thecvf.com/content\_CVPR\_2019/html/Karras\_A\_Style-Based\_Generator\_Architecture\_for\_Generative\_Adversarial\_Networks\_CVPR\_2019\_paper.html>.
 
 E disponibilizada em:
-- URL para o IMDB: https://github.com/NVlabs/stylegan
+https://github.com/NVlabs/stylegan
 
 ## Aplicação baseada nos repositórios:
 Repositório Oficial InterfaceGAN:
