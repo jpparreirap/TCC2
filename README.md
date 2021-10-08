@@ -28,7 +28,7 @@ Neste trabalho foi utilizada a StyleGAN-Encoder com otimizadores.
 **Configurações e Dependências:**
 
 **Python**
-- Versão 3.7.3
+- Versão 3.7.12
 
 **Tensorflow**
 - Versão 2.X executado em modo compatibilidade com a versão 1.x
@@ -43,22 +43,22 @@ Neste trabalho foi utilizada a StyleGAN-Encoder com otimizadores.
 - Versão 2.10.0
 
 ### Execução do modelo
-- O primeiro passo é clonar o repositório git:
-
-```
-!git clone https://github.com/jpparreirap/TCC2
-```
-
-- Em seguida, realizar o modo compatibilidade do tensorflow para a versão 1.x:
+- O primeiro passo é realizar o modo compatibilidade do tensorflow para a versão 1.x:
 
 ```
 %tensorflow_version 1.x
 ```
 
+- Em seguida, clonar o repositório git:
+
+```
+!git clone https://github.com/jpparreirap/TCC2
+```
+
 - Agora devemos entrar no diretório da aplicação stylegan-encoder e preparar o diretório que recebe as imagens sem processamento e o diretório que receberá as imagens pré-processadas:
 
 ```
-cd stylegan-encoder
+cd TCC2/stylegan-encoder
 ```
 
 ```
@@ -114,13 +114,13 @@ cd ../interfacegan/
 - Então iremos realizar o download do modelo pré-treinado e coloca-lo dentro do diretório `models/pretrain/`:
 
 ```
-!gdown colocar link dps
+!wget https://www.dropbox.com/s/qyv37eaobnow7fu/stylegan_ffhq.pth?dl=1 -O models/pretrain/stylegan_ffhq.pth --quiet
 ```
 
 - Por fim, basta executar o script `edit.py`, passando como argumento o nomde do modelo pré-treinado (`-m stylegan_ffhq`), o boundarie que será utilizado (`-b boundaries/stylegan_ffhq_age_w_boundary.npy`), o espaço latente (`-s Wp`), o caminho para o vetor único de saída (`-i '/content/drive/MyDrive/stylegan-encoder/latent_representations/output_vectors.npy'`), o diretório de saída para o resultado da pravisão (`-o results/predict/`), o intervalo de variação (`--start_distance` e `--end_distance`) e o número de passos para que essas modificaçõe sejam feitas (`--steps`). Desta forma:
 
 ```
-!python edit.py -m stylegan_ffhq -b boundaries/stylegan_ffhq_age_w_boundary.npy -i '/content/drive/MyDrive/stylegan-encoder/latent_representations/output_vectors.npy' -o results/predict/ -3.0 3.0 10
+!python edit.py -m stylegan_ffhq -b boundaries/stylegan_ffhq_age_w_boundary.npy -s Wp -i '/content/drive/MyDrive/TCC2/stylegan-encoder/latent_representations/output_vectors.npy' -o results/predict/ --start_distance -3.0 --end_distance 3.0 --steps 10
 ```
 
 Os resultados obtidos podem ser visualizados no diretório de saída que foi passado como parêmetro para este algoritmo, neste caso seria o diretório `results/predict/`.
